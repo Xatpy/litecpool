@@ -4,6 +4,7 @@
 
 body {
 	background-image: url("images/fondo_agua.png");
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #title {
@@ -15,6 +16,7 @@ body {
 #imgContent {
 	max-width:  90%;
 	max-height: 90%;
+	border: 1px solid #021a40;
 }
 
 .desc {
@@ -38,4 +40,8 @@ body {
 .right {
   float: right;
   width: 33%;
+}
+
+.texto {
+	background-color: rgb(202,230,244);
 }
